@@ -191,7 +191,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$dnsserver;
       <nav class="container nav nav-underline">
          <div class="col-md-3 bg-danger" align="left"><a href="{!!$tematm["tmtop_mesapartesvirtual"]  !!}" class="nav-link active"  target="_blank"><i class="fa fa-envelope"></i> Nuestra Mesa de Partes Virtual</a></div>
          <div class="col-md-3 bg-info" align="left"><a href="/pagina/103" class="nav-link active"  target="_blank"><i class="fa fa-envelope"></i> Mesa de Partes Virtual Direcciones y Unidades</a></div>
-         <div class="col-md-5"><a class="nav-link active" >Central teléfonica <i class="fa fa-phone-volume"></i> {!! $tematm["tmtop_fono"] !!}</a></div>
+         <div class="col-md-2"><a class="nav-link active" >Central teléfonica <i class="fa fa-phone-volume"></i> {!! $tematm["tmtop_fono"] !!}</a></div>
          <div class="col-md-2"><a class="nav-link active" href="{!! $tematm["tmtop_correocorp"]  !!}"><i class="fa fa-envelope"></i> Correo Institucional</a></div>
          <div class="col-md-2" align="right"><a class="nav-link active" href="{!! $tematm["tmtop_transparencia"] !!}"><img src="{{ asset('img/portal.png') }}" alt="" height="30"></a></div>
       </nav>
