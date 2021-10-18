@@ -5,7 +5,7 @@
 @php
 $urltema=route('tema');
 $tematm = json_decode(getRemoteFile($urltema), true);
-$dnsserver=$tematm["dnsserver"];
+$dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
 @endphp
 <div class="content-header">
   <div class="container">
