@@ -30,7 +30,7 @@ Route::get('/allnoticias','noticias@todo');// pagina de registro de pases devuel
 route::get('/visitas','paginadiversa@visitas')->name('visitas');
 Route::get('/lnormatividad/{textno}/{anio}','normatividad@index');// pagina de sugerenecias
 Route::get('/lconvocatorias','paginadiversa@convocatoria');// pagina de sugerenecias
-
+Route::get('/lfag','paginadiversa@fag');// pagina de sugerenecias 
 Route::view('/link_denuncias','conte_denuncias')->name('conte_denuncias');// para denuncias y quejas PARA OCI denunca.blade.php
 Route::view('/reclamaciones','libroreclamacion')->name('libroreclamacion');// libro reclamaciones
 
