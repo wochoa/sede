@@ -288,7 +288,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </a>
             {{-- <div class="dropdown-divider"></div> --}}
               @else
-              <a href="/anuncios" class="btn btn-info btn-block mb-3 titulonot_2"><i class="fas fa-address-card"></i> Ver todo los anuncios publicados</a>
+              <a href="{{ $sec5->enlace }}" class="btn btn-{{ $sec5->color }} btn-block mb-3 titulonot_2"><i class="fas fa-address-card"></i> {{ $sec5->texto_enlace }}</a>
             @endif
               
             @endforeach
