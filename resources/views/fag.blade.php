@@ -1,3 +1,8 @@
+@php
+$urltema=route('tema');
+$tematm = json_decode(getRemoteFile($urltema), true);
+$dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
+@endphp
 
 @extends('plantillas.plantilla')
 
@@ -59,7 +64,9 @@
                           <td>{{$i}}</td>
                           <td>Publicación: <strong>{{$monthName }}</strong></td>
                           <td>{{$direct->ano}}</td>
-                          <td><a href="img/fag/{{$direct->img}}" title="" target="_blank"> Ver archivo</a></td>
+                          {{-- <td><a href="img/fag/{{$direct->img}}" title="" target="_blank"> Ver archivo</a></td> --}}
+                          <td><a href="{{ $dnsserver}}/storage/{{substr($direct->img,7) }}" title="" target="_blank"> Ver archivo</a></td>
+                          
                           
                          </tr>
                          @php

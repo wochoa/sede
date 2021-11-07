@@ -416,6 +416,8 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
           $j=0;
           $cant=count($popup);
         @endphp
+         @if($cant>0)
+             
          <div class="modal fade" id="modal-default" data-backdrop="static" >{{-- data-backdrop="static" --}}
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content ">
@@ -424,7 +426,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                 <a href="#" class="bg-warning" data-dismiss="modal" style="float: right;position: relative;padding-left: 8px;border-radius: 10px;width: 23px;margin-top: -20px;margin-right: -5px;font-weight: bold;">x</a>
                 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                   <div class="carousel-inner">
-                   {{ $cant }}
+                   {{-- {{ $cant }} --}}
                   @foreach($popup as $central)
                   @php
                     $j++;
@@ -470,6 +472,8 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
           </div>
           <!-- /.modal-dialog -->
         </div>
+             
+         @endif
          
         
         

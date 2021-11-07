@@ -98,7 +98,8 @@ class paginadiversa extends Controller
     public function fag()
     {
         //cargados el directorio regional
-        $listafag=DB::connection('bdgorehco')->table('fag')->orderByRaw('ano DESC')->paginate(12);
+        // $listafag=DB::connection('bdgorehco')->table('fag')->orderByRaw('ano DESC')->paginate(12);
+        $listafag=DB::table('fag')->orderByRaw('ano DESC')->paginate(12);
         return view('fag',compact('listafag'));
     }
     public function convocatoria()
