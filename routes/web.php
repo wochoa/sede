@@ -35,6 +35,7 @@ Route::view('/link_denuncias','conte_denuncias')->name('conte_denuncias');// par
 Route::view('/reclamaciones','libroreclamacion')->name('libroreclamacion');// libro reclamaciones
 route::view('/logo','logo');
 route::view('/lautoridades','autoridades');//
+route::view('/organigrama','organigrama');
 Route::get('/ldirectorio','paginadiversa@directorio')->name('directorio');
 
 

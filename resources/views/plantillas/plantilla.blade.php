@@ -50,6 +50,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$dnsserver;
 
 
     </style>
+    @yield('stylos')
 
 		 <!-- Global site tag (gtag.js) - Google Analytics -->
 		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139359440-1"></script>
