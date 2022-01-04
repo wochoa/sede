@@ -100,9 +100,9 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$dnsserver;
                                 @if($submenu[$p]["idmenus"]==$menus[$i]["idmenus"])
 
                                     @if($submenu[$p]["idpagina"]!='')
-                                    <a class="dropdown-item" href="/pagina/{{ $submenu[$p]["idpagina"]}}" target="_blank">{{ $submenu[$p]["nom_submenu"]}}</a>
+                                    <a class="dropdown-item" href="/pagina/{{ $submenu[$p]["idpagina"]}}" target="_blank">{{ utf8_decode($submenu[$p]["nom_submenu"])}}</a>
                                     @else
-                                    <a class="dropdown-item" href="{{ $submenu[$p]["link_submenu"]}}" target="_blank">{{ $submenu[$p]["nom_submenu"]}}</a>
+                                    <a class="dropdown-item" href="{{ $submenu[$p]["link_submenu"]}}" target="_blank">{{ utf8_decode($submenu[$p]["nom_submenu"])}}</a>
                                     @endif
 
                                 @endif 
