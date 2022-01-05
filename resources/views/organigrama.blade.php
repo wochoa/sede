@@ -114,7 +114,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                 <!-- /.card-header -->
                 <div class="card-body titulonot_2" style="padding: 25px">
                   <h4> Aprobado mediante Ordenanza Regional Nro 040-2020-GRH-CR. <a href="https://drive.google.com/file/d/1d_UbTmv1ZCLHmGVFTjTMOB_D_jicL9Mg/view" target="_blank" class="btn btn-danger btn-sm"> <i class="fa fa-file"></i> Ver documento</a></h4>
-<table width="80%" border="0" cellpadding="0" cellspacing="0" align="center">
+                  <table width="80%" border="0" cellpadding="0" cellspacing="0" align="center">
                     <tr>
                       <td colspan="91">&nbsp;</td>
                       <td width="5">&nbsp;</td>
@@ -126,7 +126,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="22" rowspan="3" ><p>&nbsp;</p></td>
                       <td>&nbsp;</td>
                     </tr>
-                    
+                            
                     <tr>
                       <td>&nbsp;</td>
                       <td width="33" >&nbsp;</td>
@@ -237,10 +237,10 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td colspan="6" rowspan="2" class="org_cont" >Oficina Regional de Control Institucional</td>
                       <td colspan="2"><p>&nbsp;</p>
-                      <p>&nbsp;</p></td>
+                        <p>&nbsp;</p></td>
                       <td colspan="11" class="lv" data-id="3">&nbsp;</td>
                       <td colspan="12" data-id="3">&nbsp;</td>
-                    </tr>
+                      </tr>
                     <tr>
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
@@ -253,7 +253,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td colspan="2" class="esd">&nbsp;</td>
                       <td colspan="23" rowspan="4" class="org_cont title" data-id="3"><p >GOBERNACION REGIONAL</p></td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="16">&nbsp;</td>
                       <td class="lv">&nbsp;</td>
@@ -356,7 +356,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       </tr>
                     <tr>
                       <td colspan="12" data-id="2" >&nbsp;</td>
-                      <td rowspan="78" >&nbsp;</td>
+                      <td rowspan="81" >&nbsp;</td>
                       <td>&nbsp;</td>
                       </tr>
                     <tr>
@@ -527,13 +527,13 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="26" >&nbsp;</td>
                       <td colspan="2">&nbsp;</td>
                       <td class="lv">&nbsp;</td>
                       <td colspan="17">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="22" rowspan="2" >&nbsp;</td>
                       <td colspan="6" rowspan="2" class="org_cont" >oficina de abastecimiento</td>
@@ -545,7 +545,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td class="lv lh">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -556,7 +556,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="26" >&nbsp;</td>
                       <td colspan="2">&nbsp;</td>
@@ -566,7 +566,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td class="lh">&nbsp;</td>
                       <td colspan="4" rowspan="8" class="esd">&nbsp;</td>
                       <td colspan="17">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="22" rowspan="2" >&nbsp;</td>
                       <td colspan="6" rowspan="2" class="org_cont" >oficina de contabilidad</td>
@@ -581,7 +581,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td class="lh lv">&nbsp;</td>
                       <td class="lh">&nbsp;</td>
@@ -593,7 +593,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="26" >&nbsp;</td>
                       <td colspan="2" >&nbsp;</td>
@@ -635,14 +635,14 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="26" >&nbsp;</td>
                       <td colspan="2" >&nbsp;</td>
                       <td class="lv">&nbsp;</td>
                       <td class="lh" >&nbsp;</td>
                       <td colspan="17">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="22" rowspan="2" >&nbsp;</td>
                       <td colspan="6" rowspan="2" class="org_cont" >oficina de patrimonio</td>
@@ -654,7 +654,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td class="lh">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -669,7 +669,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     
                     <tr>
                       <td colspan="45" class="lv">&nbsp;</td>
@@ -706,7 +706,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td colspan="11">&nbsp;</td>
                       <td >&nbsp;</td>
-    </tr>
+            </tr>
                     
                       <tr>
                         <td colspan="10">&nbsp;</td>
@@ -762,7 +762,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
-                      <td rowspan="43" class="lv">&nbsp;</td>
+                      <td rowspan="46" class="lv">&nbsp;</td>
                       <td colspan="5" rowspan="2">&nbsp;</td>
                       <td colspan="18" rowspan="2" class="org_cont title" >GERENCIA REGIONAL DE RECURSOS NATURALES Y GESTION AMBIENTAL</td>
                       <td colspan="4" rowspan="2">&nbsp;</td>
@@ -810,7 +810,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       </tr>
                     <tr>
-                      <td colspan="4" rowspan="27" class="lv"><p>&nbsp;</p></td>
+                      <td colspan="4" rowspan="30" class="lv"><p>&nbsp;</p></td>
                       <td class="lh">&nbsp;</td>
                       <td width="9" class="lh">&nbsp;</td>
                       <td width="5" class="lh">&nbsp;</td>
@@ -829,7 +829,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
-                      <td colspan="2" rowspan="38" class="lv"><p>&nbsp;</p></td>
+                      <td colspan="2" rowspan="41" class="lv"><p>&nbsp;</p></td>
                       <td colspan="3" class="lh">&nbsp;</td>
                       <td colspan="13">&nbsp;</td>
                       <td colspan="4">&nbsp;</td>
@@ -842,7 +842,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="3" rowspan="11" class="lv"><p>&nbsp;</p></td>
+                      <td colspan="3" rowspan="12" class="lv"><p>&nbsp;</p></td>
                       <td colspan="6" class="lh">&nbsp;</td>
                       <td colspan="9">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -854,12 +854,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td colspan="10" rowspan="2" class="org_cont">Sub Gerencia de Promoción de la Inversión Privada</td>
+                      <td colspan="15" rowspan="2" class="org_cont">Sub Gerencia de Promoción de la Inversión Privada</td>
                       <td width="16" >&nbsp;</td>
                       <td >&nbsp;</td>
                       <td colspan="11" rowspan="2" class="org_cont" >Sub Gerencia de Inversión y Bienestar Social</td>
@@ -876,7 +871,12 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td rowspan="2">&nbsp;</td>
                       </tr>
                     <tr>
-                      <td colspan="11" class="lh">&nbsp;</td>
+                      <td class="lh">&nbsp;</td>
+                      <td class="lh">&nbsp;</td>
+                      <td class="lh">&nbsp;</td>
+                      <td class="lh">&nbsp;</td>
+                      <td class="lh">&nbsp;</td>
+                      <td class="lh">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td class="lh" >&nbsp;</td>
                       <td >&nbsp;</td>
@@ -886,7 +886,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td class="lh" data-id="47" ></td>
                       <td colspan="5" data-id="49" >&nbsp;</td>
                       <td class="lh" data-id="52" ss>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td >&nbsp;</td>
                       <td colspan="20" >&nbsp;</td>
@@ -947,7 +947,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td class="lh">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td height="19" colspan="21" >&nbsp;</td>
                       <td width="16" >&nbsp;</td>
@@ -1035,10 +1035,10 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td class="lh">&nbsp;</td>
-                    </tr>
+                      </tr>
                     <tr>
-                      <td rowspan="8">&nbsp;</td>
-                      <td rowspan="6" class="lv">&nbsp;</td>
+                      <td rowspan="11">&nbsp;</td>
+                      <td rowspan="9" class="lv">&nbsp;</td>
                       <td colspan="19">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1057,7 +1057,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="27" rowspan="2">&nbsp;</td>
+                      <td colspan="27" rowspan="3">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1073,63 +1073,73 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td rowspan="8">&nbsp;</td>
+                      <td rowspan="11">&nbsp;</td>
                       </tr>
                     <tr>
-                      <td>&nbsp;</td>
-                      <td colspan="17" rowspan="2" class="org_cont">Sub Dirección de Pesquería</td>
-                      <td>&nbsp;</td>
-                      <td width="16" >&nbsp;</td>
+                      <td rowspan="2">&nbsp;</td>
+                      <td colspan="17" rowspan="5" class="org_cont">Sub Dirección de Pesquería</td>
+                      <td rowspan="2">&nbsp;</td>
+                      <td width="16" rowspan="2" >&nbsp;</td>
                       <td>&nbsp;</td>
                       <td colspan="11" rowspan="2" class="org_cont">Dirección Regional de Salud</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td colspan="14" rowspan="2" class="org_cont">Direccion Regional de Transportes y Comunicacion</td>
-    </tr>
+                      <td rowspan="2">&nbsp;</td>
+                      <td rowspan="2">&nbsp;</td>
+                      <td rowspan="2">&nbsp;</td>
+                      <td rowspan="2">&nbsp;</td>
+                      <td rowspan="2">&nbsp;</td>
+                      <td colspan="14" rowspan="5" class="org_cont">Direccion Regional de Transportes y Comunicacion</td>
+            </tr>
                     <tr>
                       <td class="lh">&nbsp;</td>
+            </tr>
+                    <tr>
+                      <td rowspan="3" class="lh">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td width="16" rowspan="3" >&nbsp;</td>
+                      <td colspan="12">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td width="11" rowspan="3">&nbsp;</td>
+                      <td width="5" rowspan="3">&nbsp;</td>
+                      <td width="5" rowspan="3">&nbsp;</td>
+                      <td width="5" rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3">&nbsp;</td>
+                      <td rowspan="3" class="lh">&nbsp;</td>
+            </tr>
+                    <tr>
                       <td>&nbsp;</td>
-                      <td width="16" >&nbsp;</td>
+                      <td colspan="11" rowspan="2" class="org_cont">Dirección Regional de Educación</td>
+            </tr>
+                    <tr>
                       <td class="lh">&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td width="11">&nbsp;</td>
-                      <td width="5">&nbsp;</td>
-                      <td width="5">&nbsp;</td>
-                      <td width="5">&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td>&nbsp;</td>
-                      <td class="lh">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="16">&nbsp;</td>
                       <td colspan="3">&nbsp;</td>
@@ -1137,7 +1147,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="5">&nbsp;</td>
                       <td colspan="11">&nbsp;</td>
                       <td colspan="45" rowspan="26"><p>&nbsp;</p></td>
-    </tr>
+            </tr>
                     <tr>
                       <td rowspan="2">&nbsp;</td>
                       <td colspan="17" rowspan="3" class="org_cont">Sub Dirección de Industria y Mype</td>
@@ -1149,7 +1159,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
@@ -1158,7 +1168,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td class="lh">&nbsp;</td>
@@ -1166,7 +1176,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td width="16" >&nbsp;</td>
                       <td colspan="2" rowspan="11" class="lv">&nbsp;</td>
                       <td colspan="14">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td colspan="16">&nbsp;</td>
@@ -1178,7 +1188,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td colspan="19" rowspan="2" class="org_cont" ><p>Dirección Regional de Energía y Minas</p></td>
@@ -1197,7 +1207,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td width="16" >&nbsp;</td>
                       <td colspan="3" ></td>
                       <td colspan="11" ></td>
-                    </tr>
+                      </tr>
                     <tr>
                       <td rowspan="7">&nbsp;</td>
                       <td rowspan="5" class="lv">&nbsp;</td>
@@ -1223,7 +1233,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td ></td>
                       <td ></td>
                       <td ></td>
-    </tr>
+            </tr>
                     <tr>
                       <td class="lh">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1232,7 +1242,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td colspan="11">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td colspan="15">&nbsp;</td>
@@ -1244,7 +1254,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td colspan="17" rowspan="2" class="org_cont">Sub Dirección de Energía y Asuntos Ambientales Energeticos</td>
@@ -1255,7 +1265,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td class="lh">&nbsp;</td>
@@ -1265,7 +1275,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td colspan="11">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td colspan="16">&nbsp;</td>
@@ -1277,7 +1287,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td colspan="19" rowspan="2" class="org_cont" ><p>Dirección Regional de Comercio Exterior y Turismo</p></td>
@@ -1296,7 +1306,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td colspan="16">&nbsp;</td>
-                    </tr>
+                      </tr>
                     <tr>
                       <td colspan="4" rowspan="6">&nbsp;</td>
                       <td rowspan="6"><p>&nbsp;</p></td>
@@ -1322,7 +1332,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td class="lh">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1332,7 +1342,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td colspan="11">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td colspan="15">&nbsp;</td>
@@ -1344,7 +1354,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td>&nbsp;</td>
                       <td colspan="17" rowspan="2" class="org_cont">Sub Dirección de turismo</td>
@@ -1355,7 +1365,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td class="lh">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1364,7 +1374,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td colspan="11">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="4">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1405,7 +1415,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td colspan="11">&nbsp;</td>
-    </tr>
+            </tr>
                     <tr>
                       <td colspan="25">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
@@ -1480,14 +1490,14 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="23" >&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                    </tr>
+                      </tr>
                     
                     
                     
                     
                     
                     
-  </table>
+          </table>
                     
                 </div>
                 <!-- /.card-body -->
