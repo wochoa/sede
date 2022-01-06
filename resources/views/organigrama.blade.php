@@ -541,7 +541,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td class="lv">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Sub Gerencia de Modernización y Transformación Digital</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(2)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Modernización y Transformación Digital</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
