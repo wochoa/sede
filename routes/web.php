@@ -38,6 +38,7 @@ route::view('/lautoridades','autoridades');//
 route::view('/organigrama','organigrama');
 Route::get('/ldirectorio','paginadiversa@directorio')->name('directorio');
 route::get('/dependencias','paginadiversa@dependencias')->name('dependencias');
+route::get('/dependencias/{id}','paginadiversa@dependenciasid')->name('dependenciasid');
 
 
 

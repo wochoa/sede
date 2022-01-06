@@ -114,6 +114,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                 <!-- /.card-header -->
                 <div class="card-body titulonot_2" style="padding: 25px">
                   <h4> Aprobado mediante Ordenanza Regional Nro 040-2020-GRH-CR. <a href="https://drive.google.com/file/d/1d_UbTmv1ZCLHmGVFTjTMOB_D_jicL9Mg/view" target="_blank" class="btn btn-danger btn-sm"> <i class="fa fa-file"></i> Ver documento</a></h4>
+                  
                   <table width="80%" border="0" cellpadding="0" cellspacing="0" align="center">
                     <tr>
                       <td colspan="91">&nbsp;</td>
@@ -138,12 +139,12 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td width="8" >&nbsp;</td>
                       <td width="14" >&nbsp;</td>
                       <td width="14" >&nbsp;</td>
-                      <td colspan="6" rowspan="2" class="org_cont" >Secretaria del Consejo regional</td>
+                      <td colspan="6" rowspan="2" class="org_cont" onclick="modal(5)" data-toggle="modal" data-target="#idmodal">Secretaria del Consejo regional</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td width="7">&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="23" rowspan="4" class="org_cont title" ><p>CONSEJO REGIONAL</p></td>
+                      <td colspan="23" rowspan="4" class="org_cont title" onclick="modal(4)" data-toggle="modal" data-target="#idmodal"><p>CONSEJO REGIONAL</p></td>
                       <td width="9">&nbsp;</td>
                       <td width="9">&nbsp;</td>
                       <td width="5">&nbsp;</td>
@@ -235,7 +236,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
-                      <td colspan="6" rowspan="2" class="org_cont" >Oficina Regional de Control Institucional</td>
+                      <td colspan="6" rowspan="2" class="org_cont" onclick="modal(8)" data-toggle="modal" data-target="#idmodal">Oficina Regional de Control Institucional</td>
                       <td colspan="2"><p>&nbsp;</p>
                         <p>&nbsp;</p></td>
                       <td colspan="11" class="lv" data-id="3">&nbsp;</td>
@@ -252,7 +253,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
                       <td colspan="2" class="esd">&nbsp;</td>
-                      <td colspan="23" rowspan="4" class="org_cont title" data-id="3"><p >GOBERNACION REGIONAL</p></td>
+                      <td colspan="23" rowspan="4" class="org_cont title" onclick="modal(6)" data-toggle="modal" data-target="#idmodal"><p >GOBERNACION REGIONAL</p></td>
             </tr>
                     <tr>
                       <td colspan="16">&nbsp;</td>
@@ -287,7 +288,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="6" rowspan="2" class="org_cont">Procuraduría Pública Regional</td>
+                      <td colspan="6" rowspan="2" class="org_cont" onclick="modal(9)" data-toggle="modal" data-target="#idmodal">Procuraduría Pública Regional</td>
                       <td height="23" colspan="2" class="eid">&nbsp;</td>
                       <td colspan="2" class="lh">&nbsp;</td>
                       <td colspan="6" class="lh" >&nbsp;</td>
@@ -356,7 +357,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       </tr>
                     <tr>
                       <td colspan="12" data-id="2" >&nbsp;</td>
-                      <td rowspan="81" >&nbsp;</td>
+                      <td rowspan="84" >&nbsp;</td>
                       <td>&nbsp;</td>
                       </tr>
                     <tr>
@@ -370,7 +371,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
-                      <td colspan="5" rowspan="3" class="org_cont" >Secretaría General</td>
+                      <td colspan="5" rowspan="3" class="org_cont" onclick="modal(21)" data-toggle="modal" data-target="#idmodal">Secretaría General</td>
                       <td width="5">&nbsp;</td>
                       <td colspan="10" rowspan="3">&nbsp;</td>
                       <td width="13" rowspan="2">&nbsp;</td>
@@ -437,7 +438,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="5" rowspan="3" class="org_cont">Oficina de Coordinación Lima</td>
+                      <td colspan="5" rowspan="3" class="org_cont" onclick="modal(23)" data-toggle="modal" data-target="#idmodal">Oficina de Coordinación Lima</td>
                       <td class="lv">&nbsp;</td>
                       <td rowspan="3" class="lv">&nbsp;</td>
                       <td >&nbsp;</td>
@@ -477,11 +478,11 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                     </tr>
                     <tr>
                       <td colspan="34" rowspan="3">&nbsp;</td>
-                      <td colspan="22" rowspan="3" class="org_cont title" data-id="11"  ><p>GERENCIA GENERAL REGIONAL</p></td>
+                      <td colspan="22" rowspan="3" class="org_cont title" onclick="modal(12)" data-toggle="modal" data-target="#idmodal"><p>GERENCIA GENERAL REGIONAL</p></td>
                       <td colspan="17">&nbsp;</td>
                       <td width="8">&nbsp;</td>
                       <td width="8">&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Sub Gerencia de Planeamiento estratégico</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(16)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Planeamiento estratégico</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -504,21 +505,21 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       </tr>
                     <tr>
                       <td colspan="22" rowspan="2" >&nbsp;</td>
-                      <td colspan="6" rowspan="2" class="org_cont" >oficina de gestión de recursos humanos</td>
+                      <td colspan="6" rowspan="2" class="org_cont" onclick="modal(25)" data-toggle="modal" data-target="#idmodal">oficina de gestión de recursos humanos</td>
                       <td height="19" >&nbsp;</td>
-                      <td rowspan="6" >&nbsp;</td>
+                      <td rowspan="9" >&nbsp;</td>
                       <td colspan="3" rowspan="5">&nbsp;</td>
-                      <td rowspan="6" >&nbsp;</td>
-                      <td colspan="11" rowspan="8" class="lv">&nbsp;</td>
+                      <td rowspan="9" >&nbsp;</td>
+                      <td colspan="11" rowspan="11" class="lv">&nbsp;</td>
                       <td colspan="11" rowspan="5">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Sub Gerencia de Presupuesto Público</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(17)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Presupuesto Público</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td rowspan="8">&nbsp;</td>
+                      <td rowspan="11">&nbsp;</td>
                       </tr>
                     <tr>
                       <td class="lv lh">&nbsp;</td>
@@ -536,7 +537,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td colspan="22" rowspan="2" >&nbsp;</td>
-                      <td colspan="6" rowspan="2" class="org_cont" >oficina de abastecimiento</td>
+                      <td colspan="6" rowspan="2" class="org_cont" onclick="modal(28)" data-toggle="modal" data-target="#idmodal">oficina de abastecimiento</td>
                       <td class="lv">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -549,7 +550,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                     <tr>
                       <td class="lv lh">&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="12" rowspan="2" class="org_cont">Gerencia Regional de Planeamiento, Presupuesto y Acondicionamiento Territorial</td>
+                      <td colspan="12" rowspan="5" class="org_cont" onclick="modal(15)" data-toggle="modal" data-target="#idmodal">Gerencia Regional de Planeamiento, Presupuesto y Acondicionamiento Territorial</td>
                       <td colspan="4" class="lv">&nbsp;</td>
                       <td colspan="2" class="lh">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -558,25 +559,44 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
             </tr>
                     <tr>
-                      <td colspan="26" >&nbsp;</td>
-                      <td colspan="2">&nbsp;</td>
-                      <td class="lv">&nbsp;</td>
-                      <td colspan="3" rowspan="3" class="org_cont">GERENCIA REGIONAL DE ADMINISTRACION</td>
-                      <td colspan="11" rowspan="4" class="lv">&nbsp;</td>
-                      <td class="lh">&nbsp;</td>
-                      <td colspan="4" rowspan="8" class="esd">&nbsp;</td>
+                      <td colspan="26" rowspan="4" >&nbsp;</td>
+                      <td colspan="2" rowspan="4">&nbsp;</td>
+                      <td rowspan="4" class="lv">&nbsp;</td>
+                      <td colspan="3" rowspan="6" class="org_cont" onclick="modal(24)" data-toggle="modal" data-target="#idmodal">GERENCIA REGIONAL DE ADMINISTRACION</td>
+                      <td colspan="11" rowspan="7" class="lv">&nbsp;</td>
+                      <td rowspan="4" class="lh">&nbsp;</td>
+                      <td colspan="4" rowspan="11" class="esd">&nbsp;</td>
+                      <td colspan="17">&nbsp;</td>
+            </tr>
+                    <tr>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(18)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Programación Multianual de Inversiones</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+            </tr>
+                    <tr>
+                      <td colspan="2" class="lh">&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+                      <td>&nbsp;</td>
+            </tr>
+                    <tr>
                       <td colspan="17">&nbsp;</td>
             </tr>
                     <tr>
                       <td colspan="22" rowspan="2" >&nbsp;</td>
-                      <td colspan="6" rowspan="2" class="org_cont" >oficina de contabilidad</td>
+                      <td colspan="6" rowspan="2" class="org_cont" onclick="modal(26)" data-toggle="modal" data-target="#idmodal">oficina de contabilidad</td>
                       <td class="lv">&nbsp;</td>
                       <td >&nbsp;</td>
                       <td ></td>
                       <td colspan="13">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Sub Gerencia de estudios de Pre Inversiones - OPMI</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(19)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de estudios de Pre Inversiones - OPMI</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -587,7 +607,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td class="lh">&nbsp;</td>
                       <td class="lv lh"></td>
                       <td>&nbsp;</td>
-                      <td colspan="12" rowspan="2" class="org_cont">Gerencia Regional de Asesoría Jurídica</td>
+                      <td colspan="12" rowspan="2" class="org_cont" onclick="modal(14)" data-toggle="modal" data-target="#idmodal">Gerencia Regional de Asesoría Jurídica</td>
                       <td colspan="2" class="lh">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -609,17 +629,17 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       </tr>
                     <tr>
                       <td colspan="22" rowspan="2" >&nbsp;</td>
-                      <td colspan="6" rowspan="2" class="org_cont" >Oficina de tesorería</td>
+                      <td colspan="6" rowspan="2" class="org_cont" onclick="modal(27)" data-toggle="modal" data-target="#idmodal">Oficina de tesorería</td>
                       <td class="lv">&nbsp;</td>
                       <td rowspan="4" >&nbsp;</td>
-                      <td colspan="3" rowspan="5" class="org_cont">OFICINA REGIONAL DE COMUNICACIONES, IMAGEN Y PROTOCOLO</td>
+                      <td colspan="3" rowspan="5" class="org_cont" onclick="modal(22)" data-toggle="modal" data-target="#idmodal">OFICINA REGIONAL DE COMUNICACIONES, IMAGEN Y PROTOCOLO</td>
                       <td rowspan="4" class="lv">&nbsp;</td>
                       <td colspan="11" rowspan="4" class="lv lh">&nbsp;</td>
                       <td colspan="11" rowspan="5" class="esd">&nbsp;</td>
                       <td colspan="13" >&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Sub Gerencia de Cooperación Internacional</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(13)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Cooperación Internacional</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -629,7 +649,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                     <tr>
                       <td class="lv lh">&nbsp;</td>
                       <td >&nbsp;</td>
-                      <td colspan="12" rowspan="2" class="org_cont" >Oficina Regional de Gestión en Conflictos Sociales</td>
+                      <td colspan="12" rowspan="2" class="org_cont" onclick="modal(10)" data-toggle="modal" data-target="#idmodal">Oficina Regional de Gestión en Conflictos Sociales</td>
                       <td colspan="2" class="lh">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -645,11 +665,11 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td colspan="22" rowspan="2" >&nbsp;</td>
-                      <td colspan="6" rowspan="2" class="org_cont" >oficina de patrimonio</td>
+                      <td colspan="6" rowspan="2" class="org_cont" onclick="modal(29)" data-toggle="modal" data-target="#idmodal">oficina de patrimonio</td>
                       <td class="lv">&nbsp;</td>
                       <td colspan="13" >&nbsp;</td>
                       <td colspan="2">&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Sub Gerencia de Acondicionamiento territorial</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(20)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Acondicionamiento territorial</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -661,7 +681,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td class="lh">&nbsp;</td>
                       <td colspan="11" class="lv">&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="12" rowspan="2" class="org_cont">Oficina Regional de Gestion de riesgo de desastres, defensa Nacional y Seguridad Ciudadana</td>
+                      <td colspan="12" rowspan="2" class="org_cont" onclick="modal(11)" data-toggle="modal" data-target="#idmodal">Oficina Regional de Gestion de riesgo de desastres, defensa Nacional y Seguridad Ciudadana</td>
                       <td colspan="4">&nbsp;</td>
                       <td colspan="2" class="lh">&nbsp;</td>
                       <td>&nbsp;</td>
@@ -754,7 +774,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       </tr>
                     <tr>
                       <td colspan="10" rowspan="2">&nbsp;</td>
-                      <td colspan="15" rowspan="2" class="org_cont title" >GERENCIA REGIONAL DE DESARROLLO ECONÓMICO</td>
+                      <td colspan="15" rowspan="2" class="org_cont title" onclick="modal(30)" data-toggle="modal" data-target="#idmodal">GERENCIA REGIONAL DE DESARROLLO ECONÓMICO</td>
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
                       <td colspan="13" rowspan="2" class="org_cont title" >GERENCIA REGIONAL DE DESARROLLO SOCIAL</td>
@@ -764,9 +784,9 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td rowspan="46" class="lv">&nbsp;</td>
                       <td colspan="5" rowspan="2">&nbsp;</td>
-                      <td colspan="18" rowspan="2" class="org_cont title" >GERENCIA REGIONAL DE RECURSOS NATURALES Y GESTION AMBIENTAL</td>
+                      <td colspan="18" rowspan="2" class="org_cont title" onclick="modal(50)" data-toggle="modal" data-target="#idmodal">GERENCIA REGIONAL DE RECURSOS NATURALES Y GESTION AMBIENTAL</td>
                       <td colspan="4" rowspan="2">&nbsp;</td>
-                      <td colspan="17" rowspan="2" class="org_cont title" >GERENCIA REGIONAL DE INFRAESTRUCTURA</td>
+                      <td colspan="17" rowspan="2" class="org_cont title" onclick="modal(45)" data-toggle="modal" data-target="#idmodal">GERENCIA REGIONAL DE INFRAESTRUCTURA</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       </tr>
@@ -864,7 +884,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td >&nbsp;</td>
                       <td colspan="4" rowspan="3">&nbsp;</td>
                       <td width="5" data-id="47" ></td>
-                      <td colspan="16" rowspan="2" class="org_cont" >				      <p>Sub Gerencia de Recursos Naturales</p></td>
+                      <td colspan="16" rowspan="2" class="org_cont" onclick="modal(51)" data-toggle="modal" data-target="#idmodal"><p>Sub Gerencia de Recursos Naturales</p></td>
                       <td colspan="5" data-id="49" >&nbsp;</td>
                       <td data-id="52" ss>&nbsp;</td>
                       <td colspan="14" rowspan="2" class="org_cont" data-id="52" ss><p>Sub Gerencia de estudios</p></td>
@@ -911,7 +931,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="15" rowspan="2" class="org_cont">Dirección Regional de Desarrollo Agrario y Riego</td>
+                      <td colspan="15" rowspan="2" class="org_cont" onclick="modal(35)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Desarrollo Agrario y Riego</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
                       <td colspan="11" rowspan="2" class="org_cont">Sub Gerencia de Juventudes</td>
@@ -921,14 +941,14 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td colspan="4" rowspan="3">&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="16" rowspan="2" class="org_cont">Sub Gerencia de Gestión Ambiental</td>
+                      <td colspan="16" rowspan="2" class="org_cont" onclick="modal(52)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Gestión Ambiental</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="14" rowspan="2" class="org_cont">Sub Gerencia de Obras y Supervision</td>
+                      <td colspan="14" rowspan="2" class="org_cont" onclick="modal(47)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Obras y Supervision</td>
                       <td rowspan="2">&nbsp;</td>
                       </tr>
                     <tr>
@@ -994,7 +1014,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       </tr>
                     <tr>
                       <td width="9">&nbsp;</td>
-                      <td colspan="19" rowspan="2" class="org_cont" ><p>Dirección Regional de la Producción</p></td>
+                      <td colspan="19" rowspan="2" class="org_cont" onclick="modal(82)" data-toggle="modal" data-target="#idmodal"><p>Dirección Regional de la Producción</p></td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td ><p>&nbsp;</p></td>
@@ -1014,7 +1034,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="14" rowspan="2" class="org_cont">Sub Gerencia de Liquidación</td>
+                      <td colspan="14" rowspan="2" class="org_cont" onclick="modal(48)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Liquidación</td>
                       <td rowspan="2">&nbsp;</td>
                       </tr>
                     <tr>
@@ -1077,17 +1097,17 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       </tr>
                     <tr>
                       <td rowspan="2">&nbsp;</td>
-                      <td colspan="17" rowspan="5" class="org_cont">Sub Dirección de Pesquería</td>
+                      <td colspan="17" rowspan="5" class="org_cont" onclick="modal(105)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Pesquería</td>
                       <td rowspan="2">&nbsp;</td>
                       <td width="16" rowspan="2" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Dirección Regional de Salud</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(126)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Salud</td>
                       <td rowspan="2">&nbsp;</td>
                       <td rowspan="2">&nbsp;</td>
                       <td rowspan="2">&nbsp;</td>
                       <td rowspan="2">&nbsp;</td>
                       <td rowspan="2">&nbsp;</td>
-                      <td colspan="14" rowspan="5" class="org_cont">Direccion Regional de Transportes y Comunicacion</td>
+                      <td colspan="14" rowspan="5" class="org_cont" onclick="modal(49)" data-toggle="modal" data-target="#idmodal">Direccion Regional de Transportes y Comunicacion</td>
             </tr>
                     <tr>
                       <td class="lh">&nbsp;</td>
@@ -1135,7 +1155,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Dirección Regional de Educación</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(39)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Educación</td>
             </tr>
                     <tr>
                       <td class="lh">&nbsp;</td>
@@ -1150,11 +1170,11 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td rowspan="2">&nbsp;</td>
-                      <td colspan="17" rowspan="3" class="org_cont">Sub Dirección de Industria y Mype</td>
+                      <td colspan="17" rowspan="3" class="org_cont" onclick="modal(106)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Industria y Mype</td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Dirección Regional de Trabajo y Promocion del Empleo</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(41)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Trabajo y Promocion del Empleo</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1183,7 +1203,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="3">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="9" rowspan="2" class="org_cont">Sub Dirección de Prevencion y Soluciones de Conflictos</td>
+                      <td colspan="9" rowspan="2" class="org_cont" onclick="modal(122)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Prevencion y Soluciones de Conflictos</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1191,7 +1211,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td colspan="19" rowspan="2" class="org_cont" ><p>Dirección Regional de Energía y Minas</p></td>
+                      <td colspan="19" rowspan="2" class="org_cont" onclick="modal(83)" data-toggle="modal" data-target="#idmodal"><p>Dirección Regional de Energía y Minas</p></td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td class="lh" ></td>
@@ -1216,7 +1236,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="3">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="9" rowspan="2" class="org_cont">Sub Dirección de Inspeccion del Trabajo</td>
+                      <td colspan="9" rowspan="2" class="org_cont" onclick="modal(124)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Inspeccion del Trabajo</td>
                       <td ></td>
                       <td ></td>
                       <td ></td>
@@ -1249,7 +1269,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="3">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="9" rowspan="2" class="org_cont">Sub Dirección de Promoción y Proteccion de los Derechos Fundamentales y de la Seguridad y Salud en el Trabajo</td>
+                      <td colspan="9" rowspan="2" class="org_cont" onclick="modal(123)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Promoción y Proteccion de los Derechos Fundamentales y de la Seguridad y Salud en el Trabajo</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1282,7 +1302,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="3">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="9" rowspan="2" class="org_cont">Sub Dirección de Promoción del Empleo y Capacitacion Laboral</td>
+                      <td colspan="9" rowspan="2" class="org_cont" onclick="modal(125)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Promoción del Empleo y Capacitacion Laboral</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1290,7 +1310,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td colspan="19" rowspan="2" class="org_cont" ><p>Dirección Regional de Comercio Exterior y Turismo</p></td>
+                      <td colspan="19" rowspan="2" class="org_cont" onclick="modal(81)" data-toggle="modal" data-target="#idmodal"><p>Dirección Regional de Comercio Exterior y Turismo</p></td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td colspan="2">&nbsp;</td>
@@ -1316,7 +1336,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="3">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Direccion regional de Vivienda Construcción y saneamiento</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(93)" data-toggle="modal" data-target="#idmodal">Direccion regional de Vivienda Construcción y saneamiento</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1324,7 +1344,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td colspan="17" rowspan="2" class="org_cont">Sub Dirección de comercio Exterior</td>
+                      <td colspan="17" rowspan="2" class="org_cont" onclick="modal(116)" data-toggle="modal" data-target="#idmodal">Sub Dirección de comercio Exterior</td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td class="lh">&nbsp;</td>
@@ -1349,7 +1369,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="3">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="9" rowspan="2" class="org_cont">Sub Dirección de Vivienda y Urbanismo</td>
+                      <td colspan="9" rowspan="2" class="org_cont" onclick="modal(95)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Vivienda y Urbanismo</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1357,7 +1377,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td colspan="17" rowspan="2" class="org_cont">Sub Dirección de turismo</td>
+                      <td colspan="17" rowspan="2" class="org_cont" onclick="modal(117)" data-toggle="modal" data-target="#idmodal">Sub Dirección de turismo</td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td class="lh">&nbsp;</td>
@@ -1383,7 +1403,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="3">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="9" rowspan="2" class="org_cont">Sub Dirección de Construcción y Saneamiento</td>
+                      <td colspan="9" rowspan="2" class="org_cont" onclick="modal(96)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Construcción y Saneamiento</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1394,7 +1414,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="4" rowspan="2">&nbsp;</td>
                       <td rowspan="2">&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="17" rowspan="2" class="org_cont">Sub Dirección de Artesania</td>
+                      <td colspan="17" rowspan="2" class="org_cont" onclick="modal(118)" data-toggle="modal" data-target="#idmodal">Sub Dirección de Artesania</td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td colspan="2">&nbsp;</td>
@@ -1420,7 +1440,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="25">&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont">Aldea Infantil &quot;SAN JUAN BOSCO&quot;</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(44)" data-toggle="modal" data-target="#idmodal">Aldea Infantil &quot;SAN JUAN BOSCO&quot;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1470,7 +1490,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                     <tr>
                       <td colspan="25">&nbsp;</td>
                       <td colspan="6" >&nbsp;</td>
-                      <td colspan="9" rowspan="2" class="org_cont">Archivo regional</td>
+                      <td colspan="9" rowspan="2" class="org_cont" onclick="modal(161)" data-toggle="modal" data-target="#idmodal">Archivo regional</td>
                       <td colspan="5" class="lv">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1509,3 +1529,72 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
 </div>
 
 @endsection()
+@section('script')
+<script>
+function modal(id)
+{
+  url='/dependencias/'+id;
+  $.ajax({
+          type:'GET',
+          url:url,
+          dataType: "json",
+          // data:{cruc:valruc},
+          success:function(data)
+          {  
+            console.log(data);
+            //dato=data.length;
+            // Result=data.respuesta.ACCRED[0].ce_ads;
+            // fechaini=data.respuesta.ACCRED[0].in_vig;
+            // fechafin=data.respuesta.ACCRED[0].fi_vig;
+            // //alert(Result);
+            // //print(Result);
+            tabla=`<table class="table table-bordered table-sm table-hover">
+                  <tr><td>Depednencia:</td><td>`+data[0].depe_nombre+`</td></tr>
+                  <tr><td>Representante:</td><td>`+data[0].depe_representante+`</td></tr>
+                  <tr><td>Cargo:</td><td>`+data[0].depe_cargo+`</td></tr>
+                  <tr><td>Abreviatura:</td><td>`+data[0].depe_abreviado+`</td></tr>
+                  <tr><td>Siglas:</td><td>`+data[0].depe_sigla+`</td></tr>`;
+            
+            tabla+=`</tbody></table>`;
+            $('.resultado').html(tabla);
+            //$('#textoresul').html(' - Consulta ESSALUD');
+            // // // ocultamos modal 
+            $('#titulo').html(data[0].depe_nombre);
+           // $('#essalud').modal('hide')          
+            //$('.overlay').hide();
+          },
+              error: function(e){
+                $('.resultado').html('No se pudo conectar al PIDE*(Plataforma de Interoperabilidad del Estado)');
+                $('.overlay').hide();
+                $('#essalud').modal('hide')
+                      }
+
+  });
+}
+</script>
+@endsection
+
+@section('popup')
+<div class="modal fade" id="idmodal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="titulo">Titulo</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body resultado">
+        
+      </div>
+      <div class="modal-footer ">
+        <button type="button" class="btn btn-primary btn-sm float left" data-dismiss="modal">Cerrar</button>
+        {{-- <button type="button" class="btn btn-primary">Save changes</button> --}}
+      </div>
+    </div>
+    <!-- /.modal-content -->
+  </div>
+  <!-- /.modal-dialog -->
+</div>
+<!-- /.modal -->
+@endsection
