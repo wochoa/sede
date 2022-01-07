@@ -1155,7 +1155,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(39)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Educación</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(166)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Educación</td>
             </tr>
                     <tr>
                       <td class="lh">&nbsp;</td>
