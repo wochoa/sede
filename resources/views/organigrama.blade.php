@@ -887,7 +887,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="16" rowspan="2" class="org_cont" onclick="modal(51)" data-toggle="modal" data-target="#idmodal"><p>Sub Gerencia de Recursos Naturales</p></td>
                       <td colspan="5" data-id="49" >&nbsp;</td>
                       <td data-id="52" ss>&nbsp;</td>
-                      <td colspan="14" rowspan="2" class="org_cont" data-id="52" onclick="modal(46)" data-toggle="modal" data-target="#idmodal"><p>Sub Gerencia de estudios</p></td>
+                      <td colspan="14" rowspan="2" class="org_cont" onclick="modal(46)" data-toggle="modal" data-target="#idmodal"><p>Sub Gerencia de estudios</p></td>
                       <td rowspan="2">&nbsp;</td>
                       </tr>
                     <tr>
