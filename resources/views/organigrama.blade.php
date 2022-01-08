@@ -777,7 +777,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="15" rowspan="2" class="org_cont title" onclick="modal(30)" data-toggle="modal" data-target="#idmodal">GERENCIA REGIONAL DE DESARROLLO ECONÓMICO</td>
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
-                      <td colspan="13" rowspan="2" class="org_cont title" >GERENCIA REGIONAL DE DESARROLLO SOCIAL</td>
+                      <td colspan="13" rowspan="2" class="org_cont title" onclick="modal(33)" data-toggle="modal" data-target="#idmodal">GERENCIA REGIONAL DE DESARROLLO SOCIAL</td>
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
                       <td >&nbsp;</td>
@@ -931,7 +931,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="15" rowspan="2" class="org_cont" onclick="modal(35)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Desarrollo Agrario y Riego</td>
+                      <td colspan="15" rowspan="2" class="org_cont" onclick="modal(84)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Desarrollo Agrario y Riego</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
                       <td colspan="11" rowspan="2" class="org_cont">Sub Gerencia de Juventudes</td>
@@ -1174,7 +1174,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(41)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Trabajo y Promocion del Empleo</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(120)" data-toggle="modal" data-target="#idmodal">Dirección Regional de Trabajo y Promocion del Empleo</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -1211,7 +1211,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td colspan="19" rowspan="2" class="org_cont" onclick="modal(83)" data-toggle="modal" data-target="#idmodal"><p>Dirección Regional de Energía y Minas</p></td>
+                      <td colspan="19" rowspan="2" class="org_cont" onclick="modal(97)" data-toggle="modal" data-target="#idmodal"><p>Dirección Regional de Energía y Minas</p></td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td class="lh" ></td>
@@ -1310,7 +1310,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             </tr>
                     <tr>
                       <td>&nbsp;</td>
-                      <td colspan="19" rowspan="2" class="org_cont" onclick="modal(81)" data-toggle="modal" data-target="#idmodal"><p>Dirección Regional de Comercio Exterior y Turismo</p></td>
+                      <td colspan="19" rowspan="2" class="org_cont" onclick="modal(114)" data-toggle="modal" data-target="#idmodal"><p>Dirección Regional de Comercio Exterior y Turismo</p></td>
                       <td>&nbsp;</td>
                       <td width="16" >&nbsp;</td>
                       <td colspan="2">&nbsp;</td>
