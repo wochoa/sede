@@ -571,7 +571,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                     <tr>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(18)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Programación Multianual de Inversiones</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(18)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de Programación Multianual de Inversiones - OPMI</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
@@ -596,7 +596,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                       <td colspan="13">&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
-                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(19)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de estudios de Pre Inversiones - OPMI</td>
+                      <td colspan="11" rowspan="2" class="org_cont" onclick="modal(19)" data-toggle="modal" data-target="#idmodal">Sub Gerencia de estudios de Pre Inversiones</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
                       <td>&nbsp;</td>
