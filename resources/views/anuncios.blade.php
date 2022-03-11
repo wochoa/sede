@@ -61,7 +61,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                           <td>Publicación: <strong>{{$direct->titulopopup }}</strong></td>
                           <td>{{$direct->created_at}}</td>
                           {{-- <td><a href="img/fag/{{$direct->img}}" title="" target="_blank"> Ver archivo</a></td> --}}
-                          <td><img src="{{ $dnsserver}}/storage/{{substr($direct->nompopup,7) }}" width="100" height="100" /></td>
+                          <td><a href="{{ $dnsserver}}/storage/{{substr($direct->nompopup,7) }}" target="_blank"><img src="{{ $dnsserver}}/storage/{{substr($direct->nompopup,7) }}" width="100" height="100" /></a></td>
                           @if($direct->enlace_popup<>'#')
                           <td><a href="{{ $direct->enlace_popup }}" title="" target="_blank"> Ver enlace</a></td>
                           @endif
