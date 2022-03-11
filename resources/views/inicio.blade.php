@@ -237,7 +237,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             @foreach(array_chunk($seccion1, 6) as $sec1)
               <div class="row" style="padding-top:5px;padding-bottom:10px">
                         @foreach($sec1 as $add)
-                        <div class="col-xs-4 col-sm-2">
+                        <div class="col-xs-4 col-sm-2 col-6">
                           <button type="button" class="btn btn-block btn-outline-{{ $add->color }}" onclick="abrir('{{ $add->enlace }}');"><i class="{{ $add->icono }} fa-2x"></i><br> <h5 >{!! utf8_encode($add->texto_enlace) !!}</h5></button>
                         </div>
                         @endforeach
