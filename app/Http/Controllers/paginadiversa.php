@@ -136,7 +136,7 @@ class paginadiversa extends Controller
         //return view('directorio',compact('directorio'));
         return $directorio;
     }
-    public function lpublicaciones()
+    public function anuncios()
     {
         $enlace = "http://".request()->server('HTTP_HOST');
         
@@ -144,7 +144,8 @@ class paginadiversa extends Controller
         $direccionweb=$portalesweb;
         $publicacion=DB::table('popup')->where('iddirecciones_web',$direccionweb)->orderBy('idpopup','DESC')->get();
 
-        return view('publicacionespopup',compact('publicacion'));
+        return view('anuncios',compact('publicacion'));
         //return $publicacion;
+        //return view('anuncios');
     }
 }
