@@ -44,7 +44,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <div class="row">
-                  <div class="col-md-7">
+                  <div class="col-md-7 col-sm-6 col-6">
                      <div class="card card_not">                      
                      
                       {{-- <img src="{{json_decode(@$publicacion[0]->con_image1)->{'tumb720x482'} }}" class="card-img-top" alt="..."> --}}
@@ -64,7 +64,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                   </div>
                   <div class="col-md-5">
                       <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-6">
                            <div class="card w-100">
                             <img src="{{ $dnsserver}}/storage/{{substr(@@$publicacion[1]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -73,7 +73,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                           </div>
                           
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-6">
                            <div class="card w-100">
                             <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[2]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -84,7 +84,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-6">
                            <div class="card w-100">
                             <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[3]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -94,7 +94,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                           
                         </div>
                         <div class="col-md-6">
-                           <div class="card w-100">
+                           <div class="card w-100 col-sm-6 col-6">
                             <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[4]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
                               <p class="card-text titulonot_2"><a href="noticias/{{@$publicacion[4]->idnoticias}}" title="">{!!substr(@$publicacion[4]->titulo,0,60) !!} .....  <small class="float-right bg-primary" style="padding: 0px 3px 0px 3px">Ver más</small></a></p>
@@ -108,7 +108,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
               </div>
               <div class="carousel-item">
                 <div class="row">
-                  <div class="col-md-7">
+                  <div class="col-md-7 col-sm-6 col-6">
                      <div class="card card_not">                      
                      
                       <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[5]->img1,7) }}" class="card-img-top" alt="...">
@@ -126,7 +126,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                   </div>
                   <div class="col-md-5">
                       <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-6">
                            <div class="card w-100">
                             <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[6]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -135,7 +135,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                           </div>
                           
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-6">
                            <div class="card w-100">
                             <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[7]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -146,7 +146,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                         </div>
                       </div>
                       <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-6">
                            <div class="card w-100">
                             <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[8]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
@@ -155,7 +155,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                           </div>
                           
                         </div>
-                        <div class="col-md-6">
+                        <div class="col-md-6 col-sm-6 col-6">
                            <div class="card w-100">
                             <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[9]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
