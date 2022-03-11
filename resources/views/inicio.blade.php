@@ -93,8 +93,8 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                           </div>
                           
                         </div>
-                        <div class="col-md-6">
-                           <div class="card w-100 col-sm-6 col-6">
+                        <div class="col-md-6 col-sm-6 col-6">
+                           <div class="card w-100">
                             <img src="{{ $dnsserver}}/storage/{{substr(@$publicacion[4]->img1,7) }}" class="card-img-top" alt="...">
                             <div class="card-body">
                               <p class="card-text titulonot_2"><a href="noticias/{{@$publicacion[4]->idnoticias}}" title="">{!!substr(@$publicacion[4]->titulo,0,60) !!} .....  <small class="float-right bg-primary" style="padding: 0px 3px 0px 3px">Ver más</small></a></p>
