@@ -136,4 +136,15 @@ class paginadiversa extends Controller
         //return view('directorio',compact('directorio'));
         return $directorio;
     }
+    public function lpublicaciones()
+    {
+        $enlace = "http://".request()->server('HTTP_HOST');
+        
+        $portalesweb=DB::table('direcciones_web')->where('dns_direcciones_web',$enlace)->value('iddirecciones_web');
+        $direccionweb=$portalesweb;
+        $publicacion=DB::table('popup')->where('iddirecciones_web',$direccionweb)->orderBy('idpopup','DESC')->get();
+
+        return view('publicacionespopup',compact('publicacion'));
+        //return $publicacion;
+    }
 }

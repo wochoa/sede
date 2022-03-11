@@ -43,6 +43,7 @@ route::get('/dependencias/{id}','paginadiversa@dependenciasid')->name('dependenc
 
 
 Route::view('/lsugerencias','sugerencias')->name('sugerencias');// pagina de sugerenecias
+Route::view('/lpublicaciones','paginadiversa@lpublicaciones')->name('publicaciones');// pagina de sugerenecias
 
 
 route::get('/listamenus','paginadiversa@listamenus')->name('listamenus');
