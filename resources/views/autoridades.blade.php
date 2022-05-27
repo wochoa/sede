@@ -27,17 +27,31 @@
         
         <div class="row" > 
              <div class="row mb-2">
-                <div class="col-md-6 ">
+                {{-- <div class="col-md-6 ">
                     <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark">
                       <div class="col p-4 d-flex flex-column position-static">
                         <strong class="d-inline-block mb-2 text-warning">PROF. JUAN MANUEL ALVARADO CORNELIO</strong>
                         <h3 class="mb-0 titulonot_2">GOBERNADOR REGIONAL</h3>
-                        {{-- <div class="mb-1 text-muted">Nov 12</div> --}}
+                        
                         <p class="card-text mb-auto titulonot_2">Gobernador Regional elegido mediante voluntad popular para el periodo 2019-2022</p>
-                        {{-- <a href="#" class="stretched-link">Continue reading</a> --}}
+                        
                       </div>
                       <div class="col-auto d-none d-lg-block">
                         <img src="img/gobervice/5.jpg" alt="" width="200">
+                      </div>
+                    </div>
+                  </div> --}}
+                  <div class="col-md-6 ">
+                    <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative bg-dark">
+                      <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-warning">Dr. ERASMO ALEJANDRO FERNANDEZ SIXTO</strong>
+                        <h3 class="mb-0 titulonot_2">GOBERNADOR REGIONAL(i)</h3>
+                        
+                        <p class="card-text mb-auto titulonot_2">Gobernador Regional elegido mediante voluntad popular para el periodo 2019-2022</p>
+                        
+                      </div>
+                      <div class="col-auto d-none d-lg-block">
+                        <img src="img/gobervice/6.jpg" alt="" width="200">
                       </div>
                     </div>
                   </div>
