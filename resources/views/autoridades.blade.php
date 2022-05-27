@@ -47,7 +47,7 @@
                         <strong class="d-inline-block mb-2 text-warning">Dr. ERASMO ALEJANDRO FERNANDEZ SIXTO</strong>
                         <h3 class="mb-0 titulonot_2">GOBERNADOR REGIONAL(i)</h3>
                         
-                        <p class="card-text mb-auto titulonot_2">Gobernador Regional elegido mediante voluntad popular para el periodo 2019-2022</p>
+                        {{-- <p class="card-text mb-auto titulonot_2">Gobernador Regional elegido mediante voluntad popular para el periodo 2019-2022</p> --}}
                         
                       </div>
                       <div class="col-auto d-none d-lg-block">
