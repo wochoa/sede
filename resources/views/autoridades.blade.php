@@ -87,7 +87,39 @@
                           <div class="card-body pt-0">
                             <div class="row">
                               <div class="col-7">
-                                <h2 class="lead"><b>VALENTIN SALAZAR HUERTA <span class="right badge badge-danger">Consejero delegado</span></b></h2>
+                                <h2 class="lead"><b>JOHANN AGUIRRE CALDAS <span class="right badge badge-danger">Consejero delegado</span></b></h2>
+                                <p class="text-warning text-sm"><b>CONSEJERO: </b> PROVINCIA MARAÑON</p>
+                                <ul class="ml-4 mb-0 fa-ul text-warning">
+                                  <li class="small"><span class="fa-li"><i class="fas fa-lg fa-mail-bulk"></i></span>johann_aguirrec180@hotmail.com</li>
+                                  <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Telefono #: 941638622</li>
+                                </ul>
+                              </div>
+                              <div class="col-5 text-center">
+                                <img src="{{ asset('img/consejeros/26.jpg') }}" alt="" class="img-circle img-fluid">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card-footer">
+                            <div class="text-right">
+                              {{-- <a href="#" class="btn btn-sm bg-teal">
+                                <i class="fas fa-comments"></i>
+                              </a> --}}
+                              <a href="#" class="btn btn-sm btn-primary">
+                                <i class="fas fa-user"></i> Ver  C.V.
+                              </a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+                        <div class="card bg-light">
+                          <div class="card-header text-muted border-bottom-0">
+                            {{-- PROVINCIA HUÁNUCO --}}
+                          </div>
+                          <div class="card-body pt-0">
+                            <div class="row">
+                              <div class="col-7">
+                                <h2 class="lead"><b>VALENTIN SALAZAR HUERTA </b></h2>
                                 <p class="text-warning text-sm"><b>CONSEJERO: </b> PROVINCIA DOS DE MAYO</p>
                                 <ul class="ml-4 mb-0 fa-ul text-warning">
                                   <li class="small"><span class="fa-li"><i class="fas fa-lg fa-mail-bulk"></i></span>salhuana1607@hotmail.com</li>
@@ -623,38 +655,7 @@
                           </div>
                         </div>
                       </div>
-                      <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
-                        <div class="card bg-light">
-                          <div class="card-header text-muted border-bottom-0">
-                            {{-- PROVINCIA HUÁNUCO --}}
-                          </div>
-                          <div class="card-body pt-0">
-                            <div class="row">
-                              <div class="col-7">
-                                <h2 class="lead"><b>JOHANN AGUIRRE CALDAS</b></h2>
-                                <p class="text-muted text-sm"><b>CONSEJERO: </b> PROVINCIA MARAÑON</p>
-                                <ul class="ml-4 mb-0 fa-ul text-muted">
-                                  <li class="small"><span class="fa-li"><i class="fas fa-lg fa-mail-bulk"></i></span>johann_aguirrec180@hotmail.com</li>
-                                  <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Telefono #: 941638622</li>
-                                </ul>
-                              </div>
-                              <div class="col-5 text-center">
-                                <img src="{{ asset('img/consejeros/26.jpg') }}" alt="" class="img-circle img-fluid">
-                              </div>
-                            </div>
-                          </div>
-                          <div class="card-footer">
-                            <div class="text-right">
-                              {{-- <a href="#" class="btn btn-sm bg-teal">
-                                <i class="fas fa-comments"></i>
-                              </a> --}}
-                              <a href="#" class="btn btn-sm btn-primary">
-                                <i class="fas fa-user"></i> Ver  C.V.
-                              </a>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      
                       <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
                         <div class="card bg-light">
                           <div class="card-header text-muted border-bottom-0">
