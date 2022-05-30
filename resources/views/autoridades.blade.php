@@ -120,8 +120,8 @@
                             <div class="row">
                               <div class="col-7">
                                 <h2 class="lead"><b>VALENTIN SALAZAR HUERTA </b></h2>
-                                <p class="text-warning text-sm"><b>CONSEJERO: </b> PROVINCIA DOS DE MAYO</p>
-                                <ul class="ml-4 mb-0 fa-ul text-warning">
+                                <p class="text-muted text-sm"><b>CONSEJERO: </b> PROVINCIA DOS DE MAYO</p>
+                                <ul class="ml-4 mb-0 fa-ul text-muted">
                                   <li class="small"><span class="fa-li"><i class="fas fa-lg fa-mail-bulk"></i></span>salhuana1607@hotmail.com</li>
                                   <li class="small"><span class="fa-li"><i class="fas fa-lg fa-phone"></i></span> Telefono #: 962982810</li>
                                 </ul>
