@@ -120,7 +120,7 @@ class paginadiversa extends Controller
 
     public function directorio()
     {
-        $directorio=DB::connection('pgsql')->table('tram_dependencia')->where('depe_tipo',1)->orderBy('iddependencia','ASC')->get();
+        $directorio=DB::connection('pgsql')->table('tram_dependencia')->where(['depe_tipo'=>1,'depe_estado'=>1])->orderBy('iddependencia','ASC')->get();
         return view('directorio',compact('directorio'));
     }
     public function dependencias()
