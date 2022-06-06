@@ -69,5 +69,9 @@ Route::get('/oficial', function () {
 	Route::get('/debate',function () {
 	return redirect('http://www2.regionhuanuco.gob.pe/debate/');
 	 });
+	 
+	 Route::get('/oficial/visitas.php',function(){
+		return redirect('http://www.regionhuanuco.gob.pe/visitas');
+	 });
 
 	 
