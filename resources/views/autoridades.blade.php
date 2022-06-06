@@ -664,7 +664,7 @@
                           <div class="card-body pt-0">
                             <div class="row">
                               <div class="col-7">
-                                <h2 class="lead"><b>VICTOR A. ARÓSTEGUI YALI</b></h2>
+                                <h2 class="lead"><b>VICTOR A. ARÓSTEGUI YALICO</b></h2>
                                 <p class="text-muted text-sm"><b>CONSEJERO: </b> PROVINCIA PACHITEA</p>
                                 <ul class="ml-4 mb-0 fa-ul text-muted">
                                   <li class="small"><span class="fa-li"><i class="fas fa-lg fa-mail-bulk"></i></span>vicalberto5@gmail.com</li>
