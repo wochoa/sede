@@ -266,7 +266,7 @@ $dnsserver='http://gestionportales.regionhuanuco.gob.pe';//$tematm["dnsserver"];
                           </div>
                           <div class="col p-4 d-flex flex-column position-static">
                             {!! utf8_encode($add3->titulo) !!}
-                            <a href="{{ $add3->enlace }}" class="titulonot_2 text-warning" target="_blank">{{ $add3->texto_enlace }} <i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
+                            <a href="{!! $add3->enlace !!}" class="titulonot_2 text-warning" target="_blank">{{ $add3->texto_enlace }} <i class="fas fa-arrow-circle-right" aria-hidden="true"></i></a>
                           </div>
                           
                         </div>
